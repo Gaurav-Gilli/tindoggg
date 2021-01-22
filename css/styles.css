@@ -1,0 +1,150 @@
+/* html */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+/* title */
+.title-image{
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+
+
+#title{
+  background-color: #ec4646;
+  color:#fff;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+}
+#features{
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  padding-bottom: 6px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 100px;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  color: grey;
+  padding: 5%
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+  padding-right: 15%;
+}
+
+
+/*nav bar*/
+.navbar{
+  padding: 0 0 4.5em;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+}
+.nav-items{
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2em;
+}
+/*buttons*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/*title image*/
+
+/*icons*/
+.icon{
+
+  padding-bottom: 20px;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.cols{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*features*/
+.features{
+  color: #8f8f8f;
+  padding: 5%;
+}
+.dog{
+  border-radius: 100%;
+  width: 10%;
+  margin: 5px;
+}
+
+/*press*/
+.press-pic{
+  width: 10%;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+/*carousel*/
+.carousel-inner{
+  padding: 7% 15%;
+}
+.price-btn{
+  width: 100%;
+}
+.cards{
+  padding: 3% 5%;
+}
+@media(max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+/*footer*/
+.last{
+  padding: 3% 20%;
+  font-size: 2rem;
+  color: white;
+  line-height: 1;
+}
+.last-btn{
+  margin: 10px;
+}
+.footer-icon{
+  margin: 4px;
+  color: black;
+}
